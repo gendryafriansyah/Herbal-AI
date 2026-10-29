@@ -1,0 +1,26 @@
+name: leafherb
+description: HerbalAI - Smart Herbal Leaf Identifier UI Mockup
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  image: ^4.9.1
+  image_picker: ^1.2.3
+  camera: ^0.11.0
+  tflite_flutter: ^0.12.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
+    - assets/images/
